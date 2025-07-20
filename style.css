@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #fdf6f9;
+}
+
+h1 {
+  color: #c94f7c;
+}
+
+.game-board {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 400px;
+  margin: auto;
+}
+
+.card {
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+  background-color: #fff;
+  border: 2px solid #c94f7c;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
